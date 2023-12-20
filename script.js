@@ -1,21 +1,19 @@
-// const btn = document.getElementById('button')
-let result = document.getElementById('risultato')
+// 1
+let result = ''
+// 2
 for (let i = 1; i <= 100; i++){
-    i = Math.floor(Math.random() * 100) + 1
-    console.log(i)
+    console.log(i);
+    // 3
     if (i % 15 === 0) {
-        result = 'FizzBuzz'
-        console.log(result, '15')
+        result = 'FizzBuzz';
+        console.log(result)
     } else if (i % 3 === 0) {
-        result = 'Fizz'
-        console.log(result, '3')
-    } else if (i % 5 === 0) {
-        result = 'Buzz'
-        console.log(result, '5')
-    }
+        result = 'Fizz';
+        console.log(result)
+     } else if (i % 5 === 0) {
+        result = 'Buzz';
+        console.log(result)
+     }
 }
 
-    
-   
-   
 

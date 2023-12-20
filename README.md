@@ -26,3 +26,8 @@ BONUS 2:
 Applica stili differenti agli elementi aggiunti al DOM nel BONUS 1, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Come abbiamo visto puoi  usare varie tecniche (style , className, classList)
  Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
+
+
+1 creo una variabile vuota
+2 creo un ciclo per ottenere dei valori che vanno da 1 a 100
+3 creo delle condizioni specifiche se i suddetti valori sono divisibili per 3, 5 o per entrambi 
